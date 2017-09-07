@@ -4,7 +4,8 @@
 #8月16日，部分网址导入后报错，'gbk' codec can't encode character u'\ubc15' in position 4: illegal multibyte sequence
 #部分字符从utf-8解析为unicode后无法被gkb编码，需要进行处理decode('utf-8','ignore').encode('gbk','ignore')
 #2016年8月30日试图完善timeout报错问题,已经解决，并试图完成模块化处理
-#2017年7月2日女神录域名改为nvshens,如果使用zngirls还是可以爬取。
+#dfff
+#2017年7月2日女神录域名改为nvshens,如果使用zngirls
 import re
 import os  
 import urllib
